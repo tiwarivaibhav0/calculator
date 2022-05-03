@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="calc">
+            <div class="inp"><input type="text" id="text" placeholder="0"></div>
+            
+            <div class="board">
+                <table>
+                    <tr>
+                        <td><button onclick="update7()" value="7">7</button></td>
+                        <td><button onclick="update8()" value="8">8</button></td>
+                        <td><button onclick="update9()" value="9">9</button></td>
+                        <td><button onclick="updateC()" >C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="update4()" value="4">4</button></td>
+                        <td><button onclick="update5()" value="5">5</button></td>
+                        <td><button onclick="update6()" value="6">6</button></td>
+                        <td><button onclick="updateDiv()">/</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button onclick="update1()" value="1">1</button></td>
+                        <td><button onclick="update2()" value="2">2</button></td>
+                        <td><button onclick="update3()" value="3">3</button></td>
+                        <td><button onclick="updateMul()">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="updatePlus()">+</button></td>
+                        <td><button onclick="update0()" value="0">0</button></td>
+                        <td><button onclick="updateMinus()">-</button></td>
+                        <td><button onclick="updateEqual()">=</button></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        
+
+
+
+
+        <script src="code.js"></script>
+    </body>
+</html>
